@@ -1,38 +1,55 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  transform: translateY(-35%);
+  animation: floatAnimation 2s ease-in-out infinite;
+}
+.section1 {
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
   text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  padding: 200px 0px;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.heading {
+  padding-top: 20px;
+  font-size: 64px;
+}
+
+.socialsBlock {
+  margin-top:100px;
+  transform: translateY(-50%);
+  animation: floatAnimation 2s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the floating distance as needed */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.social {
+  margin: 0px 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 1600px) {
+  .main{
+    padding: 420px 0px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (min-width: 1400px) {
+  .main{
+    padding: 200px 0px;
   }
 }
