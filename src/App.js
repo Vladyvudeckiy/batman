@@ -13,8 +13,8 @@ function App() {
           <h1 className="heading">Bootman VS Jokar</h1>
           <div className="batjockBlock"><img alt="batjok" className="batjok" src={batjok}/></div>
           <div className="socialsBlock">
-            <a href="https://t.me/link" target="_blank" rel="noopener noreferrer"><img className="social" alt="TG" src={TG} /></a>
-            <a href="https://twitter.com/link" target="_blank" rel="noopener noreferrer"><img className="social" alt="TW" src={TW} /></a>
+            <a href="https://t.me/bootmanvsjokar" target="_blank" rel="noopener noreferrer"><img className="social" alt="TG" src={TG} /></a>
+            <a href="https://twitter.com/bootmanvsjokar" target="_blank" rel="noopener noreferrer"><img className="social" alt="TW" src={TW} /></a>
           </div>
         </div>
       </div>
